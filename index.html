@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <title>Cook-Book-C7</title>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  </head>
+  <body>
+  <div id="container">
+    <header>
+      <a href="index.html"><img class="logo" src="images/logo.jpg"  alt="logo" height="100px" width="100px"></a>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="index.html">Przepisy</a></li>
+          <li><a href="Info.html">Info</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="ToS.html">Terms Of Service</a></li>
+        </ul>
+      </nav>
+      <a class="download" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal2"><button >Pobierz</button></a>
+    </header>
+    <div class="content">
+      <div class="row" gy-3 my-3>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="images/zupa_pom.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Zupa pomidorowa</h5>
+            <p class="card-text">Zupa pomidorowa to prawdziwa królowa zup. Zapraszam po mój ulubiony przepis na domową pomidorówkę. Możesz ją zrobić i podać na kilka sposobów, a cały opis i porady znajdziesz w treści wpisu.</p>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Zobacz przepis</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="images/ogórek.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Ogórek</h5>
+            <p class="card-text">Owoc ogórka jest jagodą o kształcie walcowatym lub cylindrycznym, w przekroju okrągły lub trójkątny.</p>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Zobacz przepis</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="images/devolaj.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Devolaj</h5>
+            <p class="card-text">Chicken Kiev, sometimes known as Chicken Kyiv, is a dish made of chicken fillet pounded and rolled around cold butter, then coated with egg and bread crumbs, and either fried or baked.</p>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Zobacz przepis</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="images/zimne-nószki.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Zimne nUszki</h5>
+            <p class="card-text">Kto lubi zimne nóżki, ręka do góry! Specjalnie dla fanów mięsa w galarecie powstał ten tradycyjny przepis na zimne nóżki wieprzowe :).</p>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Zobacz przepis</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="images/pomidor.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Pomidor</h5>
+            <p class="card-text">omidor (Solanum sekcja Lycopersicon Mill.) - sekcja w obrębie rodzaju psianka (Solanum) obejmująca grupę gatunków wyodrębnianych dawniej w rodzaj pomidor.</p>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Zobacz przepis</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="images/ratatouille.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Ratatouille</h5>
+            <p class="card-text">Ratatouille, Occitan: ratatolha, is a French Provençal dish of stewed vegetables which originated in Nice, and is sometimes referred to as ratatouille niçoise.</p>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Zobacz przepis</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="images/zupa-ogórkowa.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Zupa ogórkowa</h5>
+            <p class="card-text">Cucumber soup is a traditional Polish and Lithuanian soup. It is made from sour, salted cucumbers and potato. Occasionally rice is substituted for the potatoes. Cucumber soup is also any soup using cucumbers as a primary ingredient, and is present in various cuisines.</p>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Zobacz przepis</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="images/tosty-z-ketchupem.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Tosty z Ketchupem</h5>
+            <p class="card-text">Tosty kładziemy na patelni grillowej, możecie również wykorzystać opiekacz do tostów, jeśli go posiadanie. Tosty przyciskamy „czymś” ciężkim na przykład talerzem i grillujemy z obu stron ok. 3 minuty z każdej strony.</p>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Zobacz przepis</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="images/schabowy-z-serem.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Schabowy z serem</h5>
+            <p class="card-text">Kotlet schabowy, popularnie zwany "schabowym". Kotlety schabowe to cienko rozbite plastry schabu, obtoczone w panierce z bułki tartej, smażone na tłuszczu.</p>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Zobacz przepis</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="images/dodaj.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Nowy Przepis</h5>
+            <p class="card-text">Tutaj jako użytkownik strony możesz dodawac samemu swoje Przepisy.</p>
+            <a href="#" class="btn btn-primary" id="dodaj_bad">Dodaj przepis</a>
+          </div>
+        </div>
+      </div>
+      </div>
+  </div>
+  </div>
+  
+<footer class=" text-center text-white" style="background-color:#c6ad94;">
+  <div class="container p-4">
+    <section class="">
+      <form action="">
+        <div class="row d-flex justify-content-center">
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Zarejestruj się do Newslettera</strong>
+            </p>
+          </div>
+          <div class="col-md-5 col-12">
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="formEm" class="form-control" />
+              <label class="form-label" for="formEm">Adres Email</label>
+            </div>
+          </div>
+          <div class="col-auto">
+            <button type="submit" id="klik" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </form>
+    </section>
+    <section class="mb-4">
+      <p>
+        Wszystkie przepisy NIE SĄ naszą własnością i zostały użyte za zgodą prezesa zarządu Krzystofa Domiana. On twierdzi, że można ez.
+      </p>
+    </section>
+  </div>
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2020 Copyright:
+    <a class="text-white">Bartosz.Krzysztof.Bartosz.Jacek</a>
+  </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script>
+    $("#klik").click(function() {
+       alert("Email został dodany do bazy danych.");
+    });
+ </script>
+   <script>
+    $("#dodaj_bad").click(function() {
+       alert("Nie jesteś zalogowany.");
+    });
+ </script>
+<!-- Modal dla przepsisów -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Jedzonko</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/zupa_pom.jpg" alt="Zupa-pomidorowa" height="200px" width="200px">
+        PLACEHOLDER - przepis na zupe.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zamknij</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal dla Pobierania -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel2">Aplikacja w trakcie budowy!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/dev_build.jpg" alt="Zupa-pomidorowa" height="200px" width="200px">
+        Aplikacja dostepna wkrótce!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zamknij</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>
