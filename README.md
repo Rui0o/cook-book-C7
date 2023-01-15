@@ -5,5 +5,5 @@ Krzysztof 13551
 Jacek 14054
 Bartosz 14432
 
-Projekt został wykonany w grupie 3 osob. 
+Projekt został wykonany w grupie 4 osob. 
 Lider Krzysztof Domian.
